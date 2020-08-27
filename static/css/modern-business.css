@@ -15,7 +15,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;
+  background-size: inherit;
 }
 
 .portfolio-item {
@@ -40,4 +40,13 @@ div.col-lg-6{
 }
 div{
   color:gold;
+}
+
+.card{
+  box-shadow: 9px 9px 25px ,
+     5px 5px 2px ;
+   transition: transform 0.2s ease-in-out;
+}
+.card:hover{
+  transform: scale(1.05);
 }
